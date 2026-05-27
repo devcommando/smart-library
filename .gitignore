@@ -1,0 +1,38 @@
+code .gitignore
+# Virtual environment
+venv/
+
+# Environment variables — never commit secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
