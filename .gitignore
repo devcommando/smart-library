@@ -39,3 +39,6 @@ build/
 
 #Documentation
 docs/notes.txt
+
+#Ignore practice and POC code
+learning/programming.py
